@@ -4,8 +4,15 @@ body,
   height: 100%;
 }
 
-body {
+*,
+*::after,
+*::before {
   margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
 }
 
 .ellipsis {
