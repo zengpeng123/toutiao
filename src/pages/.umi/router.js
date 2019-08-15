@@ -80,7 +80,7 @@ const routes = [
       {
         component: () =>
           React.createElement(
-            require('D:/GitHub/toutiao/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+            require('/Users/temp/Documents/code/toutiao/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
               .default,
             { pagesPath: 'src/pages', hasRoutesInConfig: false },
           ),
@@ -94,7 +94,7 @@ const routes = [
   {
     component: () =>
       React.createElement(
-        require('D:/GitHub/toutiao/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+        require('/Users/temp/Documents/code/toutiao/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
           .default,
         { pagesPath: 'src/pages', hasRoutesInConfig: false },
       ),

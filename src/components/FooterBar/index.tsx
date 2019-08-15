@@ -1,5 +1,7 @@
 import React from 'react';
 // import Icon from '../Icon-svg';
+import ReactSVG from 'react-svg';
+import add from '../../icons/svg/add.svg';
 import './index.less';
 
 export default function() {
@@ -7,7 +9,8 @@ export default function() {
     <footer>
       <ul className="footer">
         <li>
-          {/* <Icon iconName="home" /> */}
+          {/* <Icon iconName="map" /> */}
+          <ReactSVG src={add} />
           <span>首页</span>
         </li>
         <li>
